@@ -14,6 +14,6 @@ Tecnologias utilizadas:
    - Controller
    - View (HTML)
 - Bootstrap (CSS)
-- JQuery (Javascript/AJAX)
+- JQuery (Javascript/Ajax)
 - JQuery Mask Money
 - Bootstrap Datepicket
