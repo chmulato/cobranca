@@ -9,11 +9,11 @@ Tecnologias utilizadas:
 - Spring Data
 - Spring MVC
    - Model
-       - Repository
-       - Service
+    - Repository
+    - Service
    - Controller
    - View (HTML)
-- Bootstrap (CSS)
-- JQuery (Javascript/Ajax)
-- JQuery Mask Money
-- Bootstrap Datepicket
+     - Bootstrap (CSS)
+     - Bootstrap Datepicket
+     - JQuery (Javascript/Ajax)
+     - JQuery Mask Money
