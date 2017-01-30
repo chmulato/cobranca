@@ -1,6 +1,6 @@
 # cobranca
 
-Projeto de Sistema de Cobrança - Java Spring Boot - Database MySQL
+Projeto de Sistema de Cobrança - Java Spring Boot (Jar/Fat) - Database HSQLDB 
 
 Tecnologias utilizadas:
 
