@@ -15,6 +15,11 @@ import org.springframework.web.servlet.i18n.FixedLocaleResolver;
 public class CobrancaApplication {
 
 	public static void main(String[] args) {
+		new Thread(new Runnable() {
+			   public void run() {
+					new HsqlServer();
+			   }
+			}).start();
 		SpringApplication.run(CobrancaApplication.class, args);
 	}
 	
