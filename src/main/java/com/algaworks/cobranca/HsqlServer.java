@@ -5,10 +5,15 @@ import org.hsqldb.HsqlException;
 import org.hsqldb.server.WebServer;
 
 public class HsqlServer implements Runnable {
+	
+	final public static String DB_FILENAME = "db";
+
+	final public static String DB_NAME = "ccdb";
+	
+	final public static int DB_PORT = 9001;
 
 	/**
 	 * Start the hsql server locally, with an HTTP interface.
-	 * @param args
 	 */
 	private static WebServer ws;
 
@@ -50,9 +55,9 @@ public class HsqlServer implements Runnable {
 
 	private WebServer startServer2() {
 		ws = new WebServer();
-		ws.setDatabasePath(0, "file:" + HsqlServerConst.DB_FILENAME);
-		ws.setDatabaseName(0, HsqlServerConst.DB_NAME);
-		ws.setPort(HsqlServerConst.DB_PORT);
+		ws.setDatabasePath(0, "file:" + DB_FILENAME);
+		ws.setDatabaseName(0, DB_NAME);
+		ws.setPort(DB_PORT);
 		ws.start();
 		return ws;
 	}
