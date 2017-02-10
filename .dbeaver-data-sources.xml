@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="hsqldb_embedded-15a0be37a94-914a3ae4ce345a0" provider="generic" driver="hsqldb_embedded" name="HSQLDB - serverhsqldbdb" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="C:\workspace\cobranca\serverhsqldbdb" url="jdbc:hsqldb:file:C:\workspace\cobranca\serverhsqldbdb" user="sa" type="dev"/>
+	</data-source>
+</data-sources>
